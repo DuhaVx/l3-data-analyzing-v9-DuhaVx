@@ -1,0 +1,33 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "simple-git-hooks": {
+    "pre-push": "make lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexlet-college-students/l3-data-analyzing-v9.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hexlet-college-students/l3-data-analyzing-v9/issues"
+  },
+  "homepage": "https://github.com/hexlet-college-students/l3-data-analyzing-v9#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "npm-check-updates": "^16.10.12",
+    "simple-git-hooks": "^2.8.1"
+  }
+}
